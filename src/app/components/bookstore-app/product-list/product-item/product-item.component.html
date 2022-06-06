@@ -1,0 +1,14 @@
+<div class="card shadow-sm mb-3">
+  <img class="bd-placeholder-img card-img-top" width="350px" height="450px" src='{{"assets/images/" + livro.img + ".jpg"}}'>
+  <div class="card-body">
+    <p class="card-text"> {{livro.nome}}</p>
+    <p class="card-text"> {{livro.categoria}}</p>
+    <p class="card-text"> {{livro.preco | currency: 'BRL'}}</p>
+    <p class="card-text"> {{livro.quant}}</p>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-sm btn-primary">Comprar</button>
+      <button type="button" class="btn btn-sm btn-outline-primary">Detalhes</button>
+    </div>
+  </div> 
+</div>
